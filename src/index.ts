@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import userRoutes from "./routes/userRoutes"
 import productRoutes from "./routes/productRoutes";
+import "reflect-metadata"
 
 dotenv.config();
 const app = express();
